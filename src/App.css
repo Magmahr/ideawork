@@ -1,0 +1,38 @@
+* {
+ box-sizing: border-box;
+}
+
+.navbar {
+  position: sticky;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 122px;
+  align-items: center;
+}
+
+.navbar > img {
+  float: left;
+  padding-left: 140px;
+  font-size:
+}
+
+.nav-bar > p {
+  display: inline;
+  color: 828282;
+}
+
+.navbar:last-child {
+  margin-right: 0;
+}
+
+.carousel {
+
+}
+
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
