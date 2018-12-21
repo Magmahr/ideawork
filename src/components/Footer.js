@@ -7,9 +7,8 @@ class Footer extends Component {
     return (
       <div className='footer'>
         <p className='copyright'>&copy; &mdash; SPARTA PLAESANT - <a href='https://instagram.com'>INSTAGRAM -</a>
-        <a href='https://facebook.com'>FACEBOOK -</a></p>
-
-
+        <a href='https://facebook.com'>FACEBOOK -</a>
+        <a href='https://twitter.com'>TWITTER </a></p>
       </div>
 
     )

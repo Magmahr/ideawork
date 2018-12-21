@@ -34,18 +34,16 @@
 }
 
 .navbar-items {
-  /* width: 100%; */
   display: flex;
   justify-content: flex-end;
-  font-size: 8px;
+  font-size: 11px;
   color: #828282;
   font-family: arial;
   font-weight: bold;
 }
 
 .navbar > img {
-  height: 5%;
-  width: 24%;
+  width: 18%;
 }
 
 .hamburger,
@@ -53,13 +51,16 @@
   margin-left: 20%;
   flex-direction: row;
   justify-content: flex-end;
-  /* background-color: blue; */
 }
 
 /*/CAROUSEL*/
 
+
 .carousel {
+  margin: auto;
   max-width: 1440px;
+  /* width: 100vw;
+  height: 75vw; */
 }
 
 .carousel-text-container {
@@ -71,6 +72,7 @@
   width: 100%;
   max-width: 1440px;
   color: white;
+  pointer-events:none
 }
 
 .carousel-text {
@@ -108,16 +110,10 @@
 }
 
 .post-wrapper {
-  margin: 10% 1% 1% 2%;
+  break-inside: avoid-column;
+  margin: 10% 0% 0% 0%;
 }
 
-/* .post-wrapper {
-  display: block;
-  width: 30%;
-  column-count: 3;
-  column-gap: 1em;
-  margin: 0% 4% 4% 0%;
-} */
 
 .post {
   /* background-color: teal; */
@@ -134,12 +130,12 @@
 .post-byline,
 .post-link {
   font-family: 'Springville-Regular3', serif;
-  margin-top: 2%;
 }
 
 .post-byline,
 .post-link {
-  font-size: 1vw;
+  margin-top: 10%;
+  font-size: 14px;
 }
 
 .post-link {
@@ -156,8 +152,10 @@
 }
 
 .post-date {
+  margin-top: 10%;
+  margin-bottom: 8%;
   font-family: arial;
-  font-size: 1vw;
+  font-size: 11px;
   color: #828282;
 }
 
@@ -179,4 +177,23 @@
 
 .footer a:visited {
   color: #828282;
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 720px) {
+  .post-container {
+    column-count: 2;
+    padding: 1em;
+  }
+
+}
+
+/* TABLET */
+@media screen only and (max-width: 1050px) {
+  .post-container {
+    column-count: 2;
+    padding: 1em;
+  }
+
 }
