@@ -10,19 +10,29 @@ class CarouselComponent extends Component {
   render() {
     return (
       <div className='carousel'>
-      <Carousel
-        showArrows={false}
-        showIndicators={true}
-        infiniteLoop={true}
-        autoPlay={true}
-        transitionTime={1500}
-        swipeable={true}
-        emulateTouch={true}
-        centerMode={false}
-        showThumbs={false}
-        showStatus={false}
-        useKeyboardArrows={true}
-      >
+        <div className='carousel-text-container'>
+          <div className='carousel-text'>
+            <h1>Screening:</h1>
+            <h1>DVF Secret Agent Part 2</h1>
+            <h3>October 15, 2017</h3>
+            <p>Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.</p>
+          </div>
+        </div>
+        <Carousel
+          showArrows={false}
+          showIndicators={true}
+          infiniteLoop={true}
+          autoPlay={true}
+          transitionTime={1000}
+          interval={5000}
+          swipeable={true}
+          emulateTouch={true}
+          centerMode={false}
+          showThumbs={false}
+          showStatus={false}
+          useKeyboardArrows={true}
+        >
+
         <div className='slide1'>
           <img id='slide1' src={Slide1} alt='slide1'></img>
         </div>
@@ -34,7 +44,6 @@ class CarouselComponent extends Component {
         <div className='slide3'>
           <img id='slide3' src={Slide3} alt='slide3'></img>
         </div>
-
         </Carousel>
       </div>
     )

@@ -1,21 +1,16 @@
 import React, {Component} from 'react'
+import PostContent from './components/PostContent'
 
 class PostContainer extends Component {
 
 render() {
 
-    const postData = [
-      {
-
-      },
-    ]
-
     return (
-    <div ClassName='post'>
-
+    <div ClassName='PostContainer'>
+      PostContent
     </div>
   )
-  }
+}
 
 
 }

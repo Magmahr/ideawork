@@ -1,33 +1,84 @@
 * {
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  border: 1px solid #f00 !important;
+}
+
+@font-face {
+  font-family: 'ACaslonPro';
+  src: url('fonts/ACaslonPro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Springville';
+  src: url('fonts/Springville-Regular3.otf');
 }
 
 .navbar {
   position: sticky;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  height: 122px;
+  width: auto;
   align-items: center;
+  display: flex;
+  max-height: 122px;
+  /* max-width: 500px; */
+  /* flex: 1; */
+  justify-content: space-between;
+  padding: 4% 8% 4% 8%;
+  /* max-width: 1440px; */
+  top: 0;
 }
+
+.navbar-items {
+  /* width: 100%; */
+  display: flex;
+  justify-content: flex-end;
+  font-size: 8px;
+  color: #828282;
+  font-family: arial;
+  font-weight: bold;
+}
+
+
+/* .navbar > p:last-of-type {
+  padding-left: 20%;
+} */
 
 .navbar > img {
-  float: left;
-  padding-left: 140px;
-  font-size:
+  height: 5%;
+  width: 30%;
+  /* flex-direction: row;
+  justify-content: flex-start; */
+  /* float: left; */
 }
 
-.nav-bar > p {
-  display: inline;
-  color: 828282;
+.hamburger,
+.login {
+  margin-left: 20%;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* background-color: blue; */
 }
 
-.navbar:last-child {
-  margin-right: 0;
+.carousel-text-container {
+  position: absolute;
+  z-index: 10;
+  top: 25%;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  color: white;
 }
 
-.carousel {
-
+.carousel-text {
+  padding-left: calc(100vw * 0.1);
+  padding-right: calc(100vw * 0.1);
+  font-family: Springville;
+  font-size: 2vw;
 }
 
 .footer {
@@ -35,4 +86,8 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  font-size: 1vw;
+  color: #131313;
+  font-weight: arial;
+  font-weight: bold;
 }
