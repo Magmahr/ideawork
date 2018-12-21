@@ -7,15 +7,15 @@ class PostContainer extends Component {
 render() {
 
     return (
-    <div ClassName='PostContainer'>
-    {PostContent.map(post => <Post
+    <div className='post-container'>
+      {PostContent.map(post => <div className='post-wrapper'> <Post
         id={post.id}
         date={post.date}
         title={post.title}
         byline={post.byline}
         link={post.link}
         src={post.src}
-      />)}
+      /></div>)}
     </div>
   )
 }

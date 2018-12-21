@@ -15,7 +15,7 @@
         src: require('../assets/bureaux.png'),
       },
       { id: 2,
-        date: 'FEBRUARY  2017',
+        date: 'FEBRUARY 2 2017',
         title: 'Sharp Bureaux sleepy K-pop carefully curated.',
         byline: 'Presented by',
         link: 'LOREM IPSUM',

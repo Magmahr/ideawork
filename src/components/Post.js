@@ -6,10 +6,10 @@ class Post extends Component {
     return (
     <div className='post'>
       <p className='post-date'>{this.props.date}</p>
-      <img src={this.props.src} alt={this.props.title}></img>
+      <img className='post-img' src={this.props.src} alt={this.props.title}></img>
       <a className='post-title'>{this.props.title}</a>
-      <p className='post-byline'>{this.props.byline}</p>
-      <a className='post-link'>{this.props.link}</a>
+      <p className='post-byline'>{this.props.byline} <a className='post-link'>{this.props.link}</a></p>
+
     </div>
   )
   }
