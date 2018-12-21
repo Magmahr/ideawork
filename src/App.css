@@ -9,14 +9,16 @@
 }
 
 @font-face {
-  font-family: 'ACaslonPro';
+  font-family: 'ACaslonPro-Regular';
   src: url('fonts/ACaslonPro-Regular.otf');
 }
 
 @font-face {
-  font-family: 'Springville';
+  font-family: 'Springville-Regular3';
   src: url('fonts/Springville-Regular3.otf');
 }
+
+/*/NAVBAR*/
 
 .navbar {
   position: sticky;
@@ -63,10 +65,12 @@
   /* background-color: blue; */
 }
 
+/*/CAROUSEL*/
+
 .carousel-text-container {
   position: absolute;
   z-index: 10;
-  top: 25%;
+  top: 35%;
   display: flex;
   justify-content: flex-start;
   width: 100%;
@@ -77,9 +81,63 @@
 .carousel-text {
   padding-left: calc(100vw * 0.1);
   padding-right: calc(100vw * 0.1);
-  font-family: Springville;
+}
+
+.carousel-title {
+  font-family: 'Springville-Regular3', serif;
+  font-size: 4vw;
+}
+
+.carousel-description {
+  font-size: 1.2vw;
+}
+
+.carousel-date {
   font-size: 2vw;
 }
+
+.carousel-description,
+.carousel-date {
+  padding-top: 2%;
+  font-family: 'ACaslonPro-Regular', serif;
+}
+
+/*/POSTS*/
+
+.post {
+  width: 33.3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+
+.post-title,
+.post-byline,
+.post-link {
+  font-family: 'Springville-Regular3', serif;
+}
+
+.post-link {
+  text-decoration: underline;
+}
+
+.post-title{
+  font-size: 3vw;
+}
+
+.post-title:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  font-family: arial;
+  font-size: 1vw;
+  color: #828282;
+}
+
+/*/FOOTER*/
 
 .footer {
   text-align: center;
@@ -90,4 +148,12 @@
   color: #131313;
   font-weight: arial;
   font-weight: bold;
+}
+
+.footer a:link {
+  color: #131313;
+}
+
+.footer a:visited {
+  color: #828282;
 }

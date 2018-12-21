@@ -5,13 +5,11 @@ class Post extends Component {
   render() {
     return (
     <div className='post'>
-      <a href='#' src={props.src} alt={props.title}></a>
-      <p className='post-date'>{props.date}</p>
-      <a><h1 className='post-title'>{props.title}</h1></a>
-      <p>{props.byline}</p>
-      <a>{props.link}</a>
-      />
-    ))}
+      <p className='post-date'>{this.props.date}</p>
+      <img src={this.props.src} alt={this.props.title}></img>
+      <a className='post-title'>{this.props.title}</a>
+      <p className='post-byline'>{this.props.byline}</p>
+      <a className='post-link'>{this.props.link}</a>
     </div>
   )
   }

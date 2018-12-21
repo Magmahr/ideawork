@@ -12,10 +12,10 @@ class CarouselComponent extends Component {
       <div className='carousel'>
         <div className='carousel-text-container'>
           <div className='carousel-text'>
-            <h1>Screening:</h1>
-            <h1>DVF Secret Agent Part 2</h1>
-            <h3>October 15, 2017</h3>
-            <p>Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.</p>
+            <p className='carousel-title'>Screening:</p>
+            <p className='carousel-title'>DVF Secret Agent Part 2</p>
+            <p className='carousel-date'>October 15, 2017</p>
+            <p className='carousel-description'>Join us for a private screening of DVF Secret Agent Part 2 <br></br> with our special guest, director Peter Lindberg.</p>
           </div>
         </div>
         <Carousel
