@@ -12,7 +12,7 @@ class NavBar extends Component {
         <div className='navbar-items'>
           <p className='phone-number'>212.555.5555</p>
           <p className='login'>LOGIN</p>
-            <p className='hamburger'>
+            <div className='hamburger'>
               <HamburgerMenu
               // isOpen={this.state.open}
               // menuClicked={this.handleClick.bind(this)}
@@ -24,7 +24,7 @@ class NavBar extends Component {
               borderRadius={0}
               animationDuration={0.5}
               />
-            </p>
+            </div>
           </div>
         </div>
     )
