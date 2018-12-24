@@ -10,7 +10,7 @@ To see the live demo, go [here](https://magmahr.github.io/ideawork/)
 2. on the command line run `npm install`
 3. on the command line run `npm start`
 
-![sample.jpg](public/assets/sample.jpg)
+![sample.jpg](public/sample.jpg)
 
 
 
