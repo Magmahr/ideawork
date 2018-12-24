@@ -1,4 +1,3 @@
-# Sparta Plaesant mockup for Ideawork
 
 # Sparta Plaesant mockup for Ideawork
 
