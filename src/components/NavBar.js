@@ -4,6 +4,14 @@ import HamburgerMenu from 'react-hamburger-menu'
 
 class NavBar extends Component {
 
+  state = {
+    open: false,
+  }
+
+  handleClick = () => {
+    this.setState({open: !this.state.open,})
+  }
+
   render() {
 
     return (
@@ -14,8 +22,8 @@ class NavBar extends Component {
           <p className='login'>LOGIN</p>
             <div className='hamburger'>
               <HamburgerMenu
-              // isOpen={this.state.open}
-              // menuClicked={this.handleClick.bind(this)}
+              isOpen={this.state.open}
+              menuClicked={this.handleClick.bind(this)}
               width={18}
               height={15}
               strokeWidth={1}
