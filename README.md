@@ -17,6 +17,6 @@ To see the live demo, go [here](https://magmahr.github.io/ideawork/)
 ## Built with
 
 
-![Create-React-App](https://www.npmjs.com/package/create-react-app)
-![React-Hamburger-Menu](https://www.npmjs.com/package/react-hamburger-menu)
-![React-Responsive-Carousel](https://www.npmjs.com/package/react-responsive-carousel)
+* [Create-React-App](https://www.npmjs.com/package/create-react-app)
+* [React-Hamburger-Menu](https://www.npmjs.com/package/react-hamburger-menu)
+* [React-Responsive-Carousel](https://www.npmjs.com/package/react-responsive-carousel)
