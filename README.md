@@ -1,3 +1,4 @@
+
 # Sparta Plaesant mockup for Ideawork
 
 A responsive React app site with a carousel and a masonry grid.
