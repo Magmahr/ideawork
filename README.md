@@ -16,6 +16,6 @@ To see the live demo, go [here](https://magmahr.github.io/ideawork/)
 
 ## Built with
 
-Create-React-App
-React-Hamburger-Menu
-React-Responsive-Carousel
+* [React](https://reactjs.org/)
+* [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
+* [React Hamburger Menu](https://www.npmjs.com/package/react-hamburger-menu)
