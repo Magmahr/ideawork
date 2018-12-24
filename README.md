@@ -13,9 +13,8 @@ To see the live demo, go [here](https://magmahr.github.io/ideawork/)
 ![sample.jpg](public/sample.jpg)
 
 
-
 ## Built with
 
 * [React](https://reactjs.org/)
-* [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
 * [React Hamburger Menu](https://www.npmjs.com/package/react-hamburger-menu)
+* [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
